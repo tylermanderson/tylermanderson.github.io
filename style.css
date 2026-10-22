@@ -115,9 +115,11 @@ h2 {
         grid-template-columns: 1fr;
     }
 
-    .photo {
-        order: -1;
-    }
+.photo img {
+    width: 100%;
+    max-width: 255px;
+    border-radius: 3px;
+}
 
     .photo img {
         max-width: 220px;
@@ -227,4 +229,26 @@ footer {
     border-top: 1px solid #ddd;
     color: #777;
     font-size: 14px;
+}
+
+.email {
+    color: #222;
+    text-decoration: none;
+}
+
+.email:hover {
+    text-decoration: underline;
+}
+
+.buttons a {
+    padding: 9px 18px;
+    border: 1px solid #333;
+    text-decoration: none;
+    color: #222;
+    transition: 0.15s ease;
+}
+
+.buttons a:hover {
+    background: #222;
+    color: white;
 }
