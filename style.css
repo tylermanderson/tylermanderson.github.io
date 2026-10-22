@@ -53,8 +53,8 @@ main {
 
 .intro {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 70px;
+    grid-template-columns: 2.3fr 1fr;
+    gap: 60px;
     align-items: center;
 }
 
