@@ -124,3 +124,49 @@ h2 {
     }
 
 }
+
+/* Research page */
+
+.page-title {
+    margin-bottom: 50px;
+}
+
+.research-section {
+    margin-bottom: 60px;
+}
+
+.research-section > h2 {
+    font-size: 25px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 25px;
+}
+
+.paper {
+    max-width: 800px;
+}
+
+.paper h3 {
+    font-size: 21px;
+    margin-bottom: 3px;
+}
+
+.paper-status {
+    margin-top: 0;
+    font-style: italic;
+    color: #555;
+}
+
+.paper p {
+    font-size: 16px;
+}
+
+.paper-links {
+    margin-top: 15px;
+}
+
+.paper-links a {
+    margin-right: 18px;
+    font-weight: bold;
+    color: #333;
+}
