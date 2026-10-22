@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    color: #222;
+    background: #fff;
+    line-height: 1.6;
+}
+
+nav {
+    border-bottom: 1px solid #ddd;
+}
+
+.nav-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 22px 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    font-size: 21px;
+    font-weight: bold;
+    color: #222;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 28px;
+}
+
+.nav-links a {
+    color: #444;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 80px 30px;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 70px;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 42px;
+    font-weight: normal;
+}
+
+h2 {
+    margin: 5px 0 0;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.affiliation {
+    margin-top: 0;
+    color: #555;
+}
+
+.intro-text p {
+    font-size: 17px;
+    max-width: 650px;
+}
+
+.photo img {
+    width: 100%;
+    max-width: 280px;
+    border-radius: 3px;
+}
+
+.buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+}
+
+.buttons a {
+    padding: 8px 18px;
+    border: 1px solid #333;
+    text-decoration: none;
+    color: #222;
+}
+
+.buttons a:hover {
+    background: #222;
+    color: white;
+}
+
+@media (max-width: 700px) {
+
+    .nav-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .intro {
+        grid-template-columns: 1fr;
+    }
+
+    .photo {
+        order: -1;
+    }
+
+    .photo img {
+        max-width: 220px;
+    }
+
+}
